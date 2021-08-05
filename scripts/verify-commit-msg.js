@@ -1,5 +1,5 @@
 const chalk = require('chalk');
-const msgPath = process.env.HUSKY_GIT_PARAMS; // 注意因为用的是husky所以这里是HUSKY_GIT_PARAMS
+const msgPath = process.env.HUSKY_GIT_PARAMS || '.git/COMMIT_EDITMSG'; // 注意因为用的是husky所以这里是HUSKY_GIT_PARAMS
 console.log(msgPath, process.env, 'msgPath.....');
 const msg = require('fs').readFileSync(msgPath, 'utf-8').trim();
 const commitRE = /^\[json-shopping-\d+\]\:\s.{1,50}/;
