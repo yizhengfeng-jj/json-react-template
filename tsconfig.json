@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "lib": [
+      "es2019",
+      "es2018",
+      "es7",
+      "es6",
+      "es5"
+    ],
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "types"
+  ],
+  "exclude": [
+    "src/**/*.test.tsx"
+  ]
+}
