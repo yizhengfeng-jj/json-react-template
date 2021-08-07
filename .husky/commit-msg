@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# node ./scripts/verify-commit-msg.js // 自定义的commit规范
+npx commitlint -e $1 # angular规范
