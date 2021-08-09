@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "modules": "es5",
     "module": "commonjs",
+    "target": "es5",
     "lib": [
       "es2019",
       "es2018",
