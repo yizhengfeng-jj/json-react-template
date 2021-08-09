@@ -1,3 +1,3 @@
 src/__test__/*.js
-src/*.test.tsx
+src/*.test.ts
 scripts/**
