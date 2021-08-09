@@ -1,6 +1,7 @@
 {
   "*.js": [
-      "eslint --fix"
+      "eslint --fix",
+      "git add ."
   ],
   "*.(css|less)": [
       "stylelint --fix"
