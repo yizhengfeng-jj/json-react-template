@@ -1,0 +1,10 @@
+1；css/js/ts
+2:test
+3:commlint
+4:changelog
+5:script
+
+
+1:web eslint.js
+
+3:插件顺序
