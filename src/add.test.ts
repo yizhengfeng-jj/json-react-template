@@ -5,6 +5,6 @@ describe('测试文件', () => {
         expect(add(1, 2)).toBe(3);
     });
     test('add', () => {
-        expect(add(1, 2)).toBe(9);
+        expect(add(1, 2)).toBe(90);
     });
 })
