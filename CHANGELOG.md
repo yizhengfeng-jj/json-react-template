@@ -22,6 +22,7 @@
 * **package:** 升级jest ([3c05c81](https://github.com/yizhengfeng-jj/json-react-template/commit/3c05c816e2f0e76d6eed2de7f7b8d1386f8992a0))
 * **package:** 升级jest ([85b3d46](https://github.com/yizhengfeng-jj/json-react-template/commit/85b3d466354a8c0a5a3e9cfa12d8dd58d3d7a88d))
 * **package:** 升级jest ([4e10312](https://github.com/yizhengfeng-jj/json-react-template/commit/4e1031275d6187a59f63a9d5cb493a06cab48c56))
+* **src:** 增加test ([94f78a4](https://github.com/yizhengfeng-jj/json-react-template/commit/94f78a43aef877e23b746afdc4153b182350aa27))
 
 
 
